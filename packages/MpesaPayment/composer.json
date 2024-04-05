@@ -1,0 +1,12 @@
+{
+    "name": "mpesapayment",
+    "description": "M-Pesa payment gateway for Bagisto",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "MpesaPayment\\": "packages/MpesaPayment/src",
+            "Webkul\\Payment\\Helpers\\": "packages/Payment/src/Helpers"
+        }
+    }
+}
+
